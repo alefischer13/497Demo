@@ -5,7 +5,7 @@ def howToFailThisClass():
     print("You will not pass!")
 
 def main():
-    isWorkingHard = True
+    isWorkingHard = False
     if isWorkingHard:
         howToPassThisClass()
     else:
