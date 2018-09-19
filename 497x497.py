@@ -3,7 +3,7 @@ def mult():
     return 497*497
 
 def main():
-    mult()
+    #mult()
 
 if __name__ == "__main__":
     main()
