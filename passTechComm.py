@@ -6,6 +6,7 @@ def howToFailThisClass():
 
 def main():
     isWorkingHard = True
+    isWorkingHard = False
     if isWorkingHard:
         howToPassThisClass()
 
