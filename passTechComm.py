@@ -8,8 +8,6 @@ def main():
     isWorkingHard = True
     if isWorkingHard:
         howToPassThisClass()
-    else:
-        howToFailThisClass()
 
 if __name__ == "__main__":
     main()
