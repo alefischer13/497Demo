@@ -1,5 +1,6 @@
 def mult():
-    print(497*498)
+    print(497*497)
+    return 497*497
 
 def main():
     mult()
