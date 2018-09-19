@@ -1,13 +1,15 @@
 def howToPassThisClass():
-    x = 15
-    y = 0
-    while x > y:
-        print("Work hard!")
-        x = x - 1
-        y = y + 1
+    print("You will pass!")
+
+def howToFailThisClass():
+    print("You will not pass!")
 
 def main():
-    howToPassThisClass()
+    isWorkingHard = True
+    if isWorkingHard:
+        howToPassThisClass()
+    else:
+        howToFailThisClass()
 
 if __name__ == "__main__":
     main()
