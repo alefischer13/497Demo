@@ -5,9 +5,11 @@ def howToFailThisClass():
     print("You will not pass!")
 
 def main():
-    isWorkingHard = True
+    isWorkingHard = False
     if isWorkingHard:
         howToPassThisClass()
+    else:
+        howToFailThisClass()
 
 if __name__ == "__main__":
     main()
